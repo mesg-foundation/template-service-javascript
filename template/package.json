@@ -1,0 +1,9 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{name}}",
+  "main": "index.js",
+  "dependencies": {
+    "mesg-js": "^1.2.1"
+  }
+}

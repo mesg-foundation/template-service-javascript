@@ -1,0 +1,25 @@
+name: "{{name}}"
+description: "{{description}}"
+tasks:
+  taskX:
+    inputs:
+      foo:
+        type: String
+      bar:
+        type: String
+    outputs:
+      success:
+        data:
+          message:
+            type: String
+      error:
+        data:
+          code:
+            type: Number
+          error:
+            type: String
+events:
+  started:
+    data:
+      x:
+        type: Boolean
