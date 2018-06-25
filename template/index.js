@@ -4,4 +4,4 @@ MESG.listenTask({
   taskX: require('./tasks/taskX')
 })
 
-MESG.emit("started", { x: true })
+MESG.emitEvent("started", { x: true })
