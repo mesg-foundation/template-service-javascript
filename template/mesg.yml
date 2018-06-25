@@ -14,8 +14,6 @@ tasks:
             type: String
       error:
         data:
-          code:
-            type: Number
           error:
             type: String
 events:
