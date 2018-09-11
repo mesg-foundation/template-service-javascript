@@ -1,5 +1,5 @@
-name: "{{name}}"
-description: "{{description}}"
+name: "{{.Name}}"
+description: "{{.Description}}"
 tasks:
   taskX:
     inputs:
