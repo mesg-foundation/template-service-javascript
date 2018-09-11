@@ -1,5 +1,5 @@
-name: "{{name}}"
-description: "{{description}}"
+name: "myservice"
+description: "Description of my service"
 tasks:
   taskX:
     inputs:
