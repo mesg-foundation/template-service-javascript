@@ -1,7 +1,9 @@
-const MESG = require('mesg-js').service()
+const mesg = require('mesg-js').service()
 
-MESG.listenTask({
+mesg.listenTask({
   taskX: require('./tasks/taskX')
 })
+  .on('error', (error) => console.error(error))
 
-MESG.emitEvent("started", { x: true })
+mesg.emitEvent('started', { x: true })
+  .catch((error) => console.error(error))
