@@ -1,5 +1,5 @@
-module.exports = ({ foo, bar }) => {
-  if (foo !== 'hello' || bar !== 'world') {
+module.exports = (inputs) => {
+  if (inputs.foo !== "hello" || inputs.bar !== "world") {
     throw new Error('invalid inputs')
   }
   return {
