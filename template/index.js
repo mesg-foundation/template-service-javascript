@@ -1,4 +1,6 @@
-const mesg = require('mesg-js').service()
+const Service = require('@mesg/service')
+
+const mesg = new Service()
 
 mesg.listenTask({
   taskX: require('./tasks/taskX')

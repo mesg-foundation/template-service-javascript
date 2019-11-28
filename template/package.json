@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "mesg-js": "^5.0.0"
+    "@mesg/service": "^0.1.0"
   }
 }
